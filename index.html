@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#111111">
+    <title>Captain Computers - Full Cyber Services</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+<header class="navbar">
+    <a href="#home" class="logo">CAPTAIN COMPUTERS</a>
+
+    <button class="menu-toggle" aria-label="Toggle navigation"
+        aria-expanded="false">☰</button>
+
+    <nav class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+        <a href="https://chat.whatsapp.com/LpHONqMdieVAqj42x2mIKi"
+           class="btn btn-green">Join Group</a>
+    </nav>
+</header>
+
+<main>
+<section class="hero" id="home">
+    <div class="hero-content">
+        <h1>Level Up Your Cyber Experience</h1>
+        <p>
+            Your modern cyber for KRA, eCitizen, HELB, printing,
+            assignments, CVs, posters and professional website development.
+        </p>
+
+        <div class="hero-buttons">
+            <a href="https://wa.me/254115261263"
+               class="btn btn-green">Chat on WhatsApp</a>
+
+            <a href="tel:+254115261263"
+               class="btn btn-brown">Call Us</a>
+
+            <a href="https://chat.whatsapp.com/LpHONqMdieVAqj42x2mIKi"
+               class="btn btn-black">Join WhatsApp Group</a>
+        </div>
+
+        <p class="hero-info">
+            📍 Rongo | 🕘 Open Daily 7AM–10PM | ⭐ Rated 4.8/5
+        </p>
+
+        <p class="typing-line">
+            <span id="typing-text">Securing the Digital World...</span>
+        </p>
+    </div>
+
+    <div class="hero-image">
+        <img
+            src="https://images.unsplash.com/photo-1588702547923-7093a6c3ba33?q=80&w=900"
+            alt="Computer and digital workspace">
+    </div>
+</section>
+
+<section class="services-section" id="services">
+    <h2>Our Services</h2>
+    <p class="section-intro">Reliable, fast and professional digital solutions.</p>
+
+    <input
+        type="search"
+        id="search"
+        class="searchBox"
+        placeholder="Search services... e.g. KRA, CV, Printing"
+        aria-label="Search services">
+
+    <p id="no-results" hidden>No matching services found. Try another search.</p>
+
+    <div class="services" id="serviceList">
+
+        <article class="card reveal">
+            <h3>🖊️ Typing & PDF</h3>
+            <p>Document typing, Word formatting and PDF conversion.</p>
+        </article>
+
+        <article class="card reveal">
+            <h3>📚 Assignments</h3>
+            <p>Academic formatting, research proposals and project support.</p>
+        </article>
+
+        <article class="card reveal">
+            <h3>📄 CV Writing</h3>
+            <p>Professional CVs, resumes and cover letters.</p>
+        </article>
+
+        <article class="card reveal">
+            <h3>🎨 Poster Design</h3>
+            <p>Business posters, event graphics, logos and branding.</p>
+        </article>
+
+        <article class="card reveal">
+            <h3>💰 KRA Services</h3>
+            <p>PIN services, tax returns and compliance assistance.</p>
+        </article>
+
+        <article class="card reveal">
+            <h3>🏛️ eCitizen</h3>
+            <p>Good Conduct, driving licence, passport and business registration assistance.</p>
+        </article>
+
+        <article class="card reveal">
+            <h3>🎓 HELB & KUCCPS</h3>
+            <p>Application guidance and placement assistance.</p>
+        </article>
+
+        <article class="card reveal">
+            <h3>🏥 SHA / NSSF</h3>
+            <p>Registration, statements and compliance assistance.</p>
+        </article>
+
+        <article class="card reveal">
+            <h3>🖨️ Printing & Scanning</h3>
+            <p>Colour and black-and-white printing, scanning and photocopying.</p>
+        </article>
+
+        <article class="card reveal">
+            <h3>📑 Lamination & Binding</h3>
+            <p>Document lamination, certificate protection and book binding.</p>
+        </article>
+
+        <article class="card reveal">
+            <h3>💼 Online Applications</h3>
+            <p>KDF, police, TSC, job and university application assistance.</p>
+        </article>
+
+        <article class="card reveal">
+            <h3>📧 Email & Browsing</h3>
+            <p>Email setup, internet browsing and online form assistance.</p>
+        </article>
+
+        <article class="card reveal website-card">
+            <h3>🌐 Website Development</h3>
+            <p>
+                Modern, fast and mobile-friendly websites for businesses,
+                schools, churches and personal brands.
+            </p>
+            <ul>
+                <li>Business and portfolio websites</li>
+                <li>Online shops and e-commerce</li>
+                <li>School and church websites</li>
+                <li>Domain and hosting setup</li>
+            </ul>
+            <a
+                href="https://wa.me/254115261263?text=Hi%20Captain%20Computers%2C%20I%20need%20a%20website"
+                class="btn btn-brown">Get a Website</a>
+        </article>
+
+    </div>
+</section>
+
+<section class="stats reveal">
+    <div>
+        <h3><span data-count="500">0</span>+</h3>
+        <p>Customers Served</p>
+    </div>
+    <div>
+        <h3><span data-count="12">0</span>+</h3>
+        <p>Cyber Services</p>
+    </div>
+    <div>
+        <h3><span data-count="99">0</span>%</h3>
+        <p>Commitment to Quality</p>
+    </div>
+</section>
+
+<section class="terminal-section reveal">
+    <h2>Cyber Demo Terminal</h2>
+    <p>Explore a simulated website diagnostics demo.</p>
+    <pre id="terminal-output" aria-live="polite">Ready to run demo...</pre>
+    <button id="run-scan" class="btn btn-green">Run Demo Scan</button>
+    <p class="terminal-note">Demo only. No real device or network scan is performed.</p>
+</section>
+
+<section class="contact-section" id="contact">
+    <div class="contactBox">
+        <h2>Need Help Now?</h2>
+        <p>Message Captain Computers for professional assistance.</p>
+        <h3>0115 261263</h3>
+
+        <a
+            href="https://wa.me/254115261263?text=Hi%20Captain%20Computers%2C%20I%20need%20cyber%20services"
+            class="btn btn-brown">WhatsApp Direct</a>
+
+        <a
+            href="https://chat.whatsapp.com/LpHONqMdieVAqj42x2mIKi"
+            class="btn btn-green">Join Group for Updates</a>
+
+        <p class="contact-hours">Open daily, 7AM–9PM</p>
+    </div>
+</section>
+</main>
+<footer>
+    <p>
+        © <span id="current-year">2026</span> Captain Computers.
+        All rights reserved | 0115 261263
+    </p>
+    <p>Local time: <span id="cyber-clock">--:--:--</span></p>
+<link rel="stylesheet" href="css/style.css">
+<script src="js/script.js" defer></script>
+</footer>
+
+<a
+    href="https://wa.me/254115261263"
+    class="float-whatsapp"
+    aria-label="Chat with Captain Computers on WhatsApp">💬</a>
+
+<button id="back-to-top" aria-label="Back to top" hidden>↑</button>
+
+</body>
+</html>
