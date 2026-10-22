@@ -1,5 +1,5 @@
 <div align="center"> 
-<strong> 👑 𝐂𝐀𝐏𝐓𝐀𝐈𝐍-COMPUTERS 👑 </strong>
+<strong> 👑 𝐂𝐀𝐏𝐓𝐀𝐈𝐍 👑 </strong>
     <br>
   <a href="https://git.io/typing-svg"> 
     <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=50&pause=1000&color=33ff00&center=true&width=910&height=100&lines=CAPTAIN-COMPUTERS;Commander+cyber;Made+By+Captain_+in_town" alt="Typing SVG" style="font-size: 50px;"/>
@@ -8,7 +8,6 @@
 
 <p align="center">
   <img
-    alt="CAPTAIN COMPUTERS"
     height="350"
     <a href='https://postimg.cc/4YqJvPMy' target='_blank'><img src='https://i.postimg.cc/cJ4rS5BR/file-00000000cccc8208a333d6f1f78795ea.png' border='0' alt='file-00000000cccc8208a333d6f1f78795ea'></a>
 </p>
