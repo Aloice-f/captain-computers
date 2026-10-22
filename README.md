@@ -11,7 +11,16 @@
     height="350"
     <a href='https://postimg.cc/4YqJvPMy' target='_blank'><img src='https://i.postimg.cc/cJ4rS5BR/file-00000000cccc8208a333d6f1f78795ea.png' border='0' alt='file-00000000cccc8208a333d6f1f78795ea'></a>
 </p>
+ <div class="hero-buttons">
+            <a href="https://wa.me/254115261263"
+               class="btn btn-green">Chat on WhatsApp</a>
 
+            <a href="tel:+254115261263"
+               class="btn btn-brown">Call Us</a>
+
+            <a href="https://chat.whatsapp.com/LpHONqMdieVAqj42x2mIKi"
+               class="btn btn-black">Join WhatsApp Group</a>
+        </div>
 <p align="center">
   <strong> WhatsApp Assistant 🤖</strong>
   <br>
