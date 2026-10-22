@@ -35,34 +35,6 @@
   </a>
 </p>
 
----
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WhatsApp Button</title>
-</head>
-<body style="font-family: Arial, sans-serif; text-align: center; margin-top: 100px;">
-
-    <h2>Contact Us</h2>
-    <p>Click below to send us a WhatsApp message.</p>
-
-    <a href="https://wa.me/254712345678?text=Hello%21%20I%20would%20like%20to%20know%20more."
-       target="_blank"
-       rel="noopener noreferrer"
-       style="display: inline-block;
-              background-color: #25D366;
-              color: white;
-              padding: 15px 25px;
-              text-decoration: none;
-              border-radius: 30px;
-              font-size: 18px;
-              font-weight: bold;">
-        💬 Chat on WhatsApp
-    </a>
-
-</body>
-
-
 <h2 align="center">✨ FEATURES</h2>
 
 <p align="center">
@@ -75,19 +47,7 @@
   🔒 Session-Based Authentication
   <br>
   👑 CAPTAIN  Branding
-</p>
 
----
-
-<h2 align="center">📡 DEPLOYMENT</h2>
-
-<p align="center">
-  Choose a hosting service that supports your bot's dependencies.
-  <br>
-  Follow the setup instructions in the repository before deploying.
-</p>
-
----
 
 <h2 align="center">⚠️ DISCLAIMER</h2>
 
@@ -99,4 +59,3 @@
 </p>
 
 <h3 align="center">👑 CAPTAIN COMPUTERS — Built for You ❤️</h3>
-</html>
