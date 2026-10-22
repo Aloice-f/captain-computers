@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <div align="center"> 
 <strong> 👑 𝐂𝐀𝐏𝐓𝐀𝐈𝐍 👑 </strong>
     <br>
@@ -98,3 +99,4 @@
 </p>
 
 <h3 align="center">👑 CAPTAIN COMPUTERS — Built for You ❤️</h3>
+</html>
