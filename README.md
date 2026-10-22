@@ -14,9 +14,8 @@
 </p>
 
 <p align="center">
-  <strong>Your Friendly WhatsApp Assistant 🤖</strong>
+  <strong> WhatsApp Assistant 🤖</strong>
   <br>
-  Fast • Powerful • Easy to Use
 </p>
 
 <p align="center">
