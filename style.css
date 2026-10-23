@@ -218,19 +218,26 @@ a {
 
 
 .website-card {
-    border: 2px solid var(--brown);
-    padding: 20px;
-    border-radius: 20px;
-    width: 100%;
-    max-width: 600px;
+    display: block;
+    width: 300px;
+    margin: 20px auto;
+    padding: 15px;
+    border: 2px solid brown;
+    border-radius: 12px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
 }
 
+.website-card img {
+    width: 100%;
+    border-radius: 8px;
+}
 #no-results {
     text-align: center;
     color: #a33;
     margin: 20px;
 }
-
 .stats {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -244,7 +251,17 @@ a {
     color: var(--brown);
     font-size: 32px;
 }
+.hero-image {
+    padding: 10px;
+    background: white;
+    border-radius: 20px;
+}
 
+.hero-image img {
+    display: block;
+    width: 100%;
+    border-radius: 15px;
+}
 .terminal-section {
     padding: 50px 5%;
     text-align: center;
