@@ -213,11 +213,16 @@ a {
 .card ul {
     margin: 12px 0 18px 20px;
     color: #555;
-    font-size: 13px;
+    font-size: 15px;
 }
+
 
 .website-card {
     border: 2px solid var(--brown);
+    padding: 20px;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 600px;
 }
 
 #no-results {
